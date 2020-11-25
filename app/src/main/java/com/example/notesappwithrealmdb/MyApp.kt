@@ -10,7 +10,6 @@ class MyApp: Application() {
         super.onCreate()
 
         // init Realm
-
         Realm.init(this)
 
         val configuration = RealmConfiguration.Builder()
@@ -20,6 +19,5 @@ class MyApp: Application() {
             .build()
 
         Realm.setDefaultConfiguration(configuration)
-
     }
 }

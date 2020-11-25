@@ -70,7 +70,5 @@ class AddNotesActivity : AppCompatActivity() {
             Toast.makeText(this, "Something failed: $e", Toast.LENGTH_SHORT).show()
         }
 
-
-
     }
 }
